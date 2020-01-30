@@ -1,8 +1,8 @@
 {
     "name": "koddea/currency",
-    "description": "Handles TCMB currencies for Laravel 5",
-    "keywords": ["laravel", "laravel5", "currency", "money", "exchange rate", "tcmb"],
-	"license": "BSD 2-Clause",
+    "description": "Handles TCMB currencies for Laravel 6",
+    "keywords": ["laravel", "laravel6", "currency", "money", "exchange rate", "tcmb"],
+	"license": "MIT",
     "authors": [
         {
             "name": "Emrah Ar",
@@ -27,3 +27,4 @@
     },
     "minimum-stability": "dev"
 }
+
