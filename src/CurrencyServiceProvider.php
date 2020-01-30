@@ -20,11 +20,12 @@ class CurrencyServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/config/currency.php' => config_path('currency.php'),
-        ], 'config');
+        ], 'currency-config');
 
         $this->publishes([
-            __DIR__.'/migrations' => base_path('/database/migrations'),
-        ], 'migrations');
+            __DIR__.'/database/migrations' => database_path('/migrations'),
+        ], 'currency-migrations');
+        
     }
 
     /**
