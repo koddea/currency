@@ -1,0 +1,29 @@
+{
+    "name": "koddea/currency",
+    "description": "Handles TCMB currencies for Laravel 5",
+    "keywords": ["laravel", "laravel5", "currency", "money", "exchange rate", "tcmb"],
+	"license": "BSD 2-Clause",
+    "authors": [
+        {
+            "name": "Emrah Ar",
+            "email": "emrah.ar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5|~6",
+        "illuminate/view": "~5.0|~6",
+        "illuminate/cache": "~5.0|~6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Koddea\\Currency": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
