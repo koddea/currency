@@ -22,7 +22,7 @@ class CreateCurrencyTable extends Migration
             $table->string('code', 3);
             $table->string('name', 255);
             $table->string('symbol', 10);
-            $table->inteher('numeric_code',);
+            $table->inteher('numeric_code');
             $table->double('value', 15, 8);
             $table->timestamps();
         });
